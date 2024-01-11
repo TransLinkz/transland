@@ -11,11 +11,6 @@ const Hero = () => {
       </h1>
       <h2 className="hidden md:flex lg:flex lg:text-2xl mb-5">Welcome to Translink
       , where the future of payments begins! Join our early access list and stay in the loop on the latest developments in secure online transactions.</h2>
-      {/* <p className="hidden md:flex lg:flex  mb-5 text-sm ">
-        Join our exclusive early access list for a sneak peek into the future
-        of online payments! Be the first to experience a secure and convenient
-        payment web app designed for seamless transactions.
-      </p> */}
       <div></div>
       <button className='btn  px-4 py-2 rounded-xl hover:bg-amber-500 mt-2'>
         Join our waitlist
