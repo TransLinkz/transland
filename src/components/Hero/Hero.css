@@ -1,0 +1,28 @@
+@keyframes moveUpDown {
+  0%, 100% {
+    top: -15px;
+  }
+  50% {
+    top: 0px;
+  }
+}
+
+.moving {
+  position: relative;
+  animation: moveUpDown 3.5s infinite alternate cubic-bezier(0.25, 0.1, 0.25, 0.2);
+}
+
+.textColor {
+  color: #CABF89;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: 1.5px solid rgba(219, 155, 30, 1);
+    color: #fff;
+    z-index: 1;
+    transition: all 0.3s ease;
+    text-align: center;
+}
