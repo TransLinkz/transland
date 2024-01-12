@@ -14,7 +14,7 @@ const FeatureCard = ({ icon,title, desc }) => {
         ref={ref}
       >
         {inView && <img src={icon} alt="icon" className=" imgback w-16 h-16 mb-4 p-4 rounded" />}
-        <div className=" text-center">
+        <div className=" text-center text-slate-400">
             <h2 className="text-2xl font-semibold mb-2">{title}</h2>
             <p className="">{desc}</p>
         </div>

@@ -5,7 +5,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-around lg:mt-28 p-10 gap-5">
-    <div className="text-white md:w-1/2 md:leading-7">
+    <div className="text-slate-400 md:w-1/2 md:leading-7">
       <h1 className="text-7xl mb-5 textColor">
         Secure and Convenient Payment Web App
       </h1>

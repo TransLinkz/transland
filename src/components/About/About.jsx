@@ -5,16 +5,16 @@ import "./About.css";
 const About = () => {
   return (
     <div >
-        <div className="flex justify-center items-center">
-        <h1 className="text-7xl textSmall mb-5 textColor">ABOUT-US</h1>
+        <div className="flex justify-center items-center mb-10">
+        <h1 className="text-7xl textSmall textColor">ABOUT-US</h1>
         </div>
       
-    <div className="flex flex-col lg:flex-row justify-around lg:mt-28 p-10 gap-5">
+    <div className="flex flex-col lg:flex-row justify-around lg:mt-8 px-10 py-50 gap-5">
       
       <div>
         <img src={AboutImage} alt="" className=" imgAbout rounded-3xl" />
       </div>
-      <div className="text-white md:w-1/2 md:leading-7">
+      <div className="text-slate-400 md:w-1/2 md:leading-7">
         {" "}
         
         <h2 className="text-center text-4xl textSmall mb-12 textColor">

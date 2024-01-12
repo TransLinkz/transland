@@ -18,10 +18,10 @@ const Page = () => {
           </button>
         </div>
       </div>
-      <div className="p-2 gap-5">
+      <div className="py-2 gap-5">
         <div className=" mb-8"><Hero /></div>
-        <div className=" mb-8"><About /></div>
-        <div className=" mb-8"><Feature /></div>
+        <div className=" mb-20 bg-black p-10"><About /></div>
+        <div className=" mb-8 mx-8"><Feature /></div>
         
         
       </div>
