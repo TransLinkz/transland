@@ -18,10 +18,12 @@ const Page = () => {
           </button>
         </div>
       </div>
-      <div className="p-2">
-        <Hero />
-        <About />
-        <Feature />
+      <div className="p-2 gap-5">
+        <div className=" mb-8"><Hero /></div>
+        <div className=" mb-8"><About /></div>
+        <div className=" mb-8"><Feature /></div>
+        
+        
       </div>
     </div>
   );
