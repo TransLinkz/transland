@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import About from "./About/About";
 import "./Page.css";
 import Feature from "./Feature/Feature";
+import Work from "./Work/Work";
 
 const Page = () => {
   return (
@@ -22,6 +23,7 @@ const Page = () => {
         <div className=" mb-8"><Hero /></div>
         <div className=" mb-20 bg-black p-10"><About /></div>
         <div className=" mb-8 mx-8"><Feature /></div>
+        <div className=" mb-8 mx-8"><Work /></div>
         
         
       </div>
