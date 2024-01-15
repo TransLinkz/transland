@@ -1,10 +1,11 @@
 
-import './App.css';
+// import './App.css';
+import Page from './components/Page';
 
 function App() {
   return (
     <div className="App">
-      <h1 className=' text-red-800'>hello react</h1>
+      <Page />
     </div>
   );
 }
