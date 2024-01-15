@@ -6,6 +6,8 @@ import "./Page.css";
 import Feature from "./Feature/Feature";
 import Work from "./Work/Work";
 import World from "./World/World";
+import Behind from "./Behind/Behind";
+import Footer from "./Footer/Footer";
 
 const Page = () => {
   return (
@@ -26,6 +28,8 @@ const Page = () => {
         <div className=" mb-8 mx-8"><Feature /></div>
         <div className=" mb-8 mx-8"><Work /></div>
         <div className=" mb-8 mx-8"><World /></div>
+        <div className=" mb-8 mx-8"><Behind /></div>
+        <div className=""><Footer /></div>
         
         
       </div>

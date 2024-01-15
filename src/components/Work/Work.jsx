@@ -10,17 +10,17 @@ const Work = () => {
   const Data = [
     {
       title: 'Create Account',
-      desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia illum corporis voluptatibus nihil? Facilis, sunt.',
+      desc: 'Instantly join Translink with a few clicks. Swift and hassle-free account setup, putting you in control',
       icon: Create,
     },
     {
       title: 'User Configuration',
-      desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia illum corporis voluptatibus nihil? Facilis, sunt.',
+      desc: 'Personalize your Translink experience. Customize settings to optimize your financial interactions.',
       icon: User,
     },
     {
       title: 'Enjoy Full Access',
-      desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia illum corporis voluptatibus nihil? Facilis, sunt.',
+      desc: "Unlock Translink's full potential. Seamless and secure access to all features for empowered financial transactions.",
       icon: Access,
     },
   ];
@@ -33,7 +33,7 @@ const Work = () => {
       <div className="lg:w-1/2">
         <div className="leading-7 text-slate-100">
           <h2 className="text-3xl lg:text-5xl textSmall textColor mb-4">SIMPLIFY YOUR PAYMENT PROCESSES</h2>
-          <h4 className="text-lg mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iure eius autem beatae mollitia quasi, neque magni excepturi velit ullam sunt eos minima.</h4>
+          <h4 className="text-lg mb-4">Streamline and enhance your payment processes effortlessly. Experience a hassle-free journey to financial efficiency with Translink's user-friendly solutions.</h4>
           <div>
             {Data.map((items) => (
               <div key={items.title} className="flex items-center gap-5 mb-5">

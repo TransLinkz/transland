@@ -3,6 +3,7 @@ import AboutImage from "../../assets/about.jpg";
 import "./About.css";
 
 const About = () => {
+  const googleFormLink = 'https://forms.gle/fBbRm1ibf1V15mVK7';
   return (
     <div >
         <div className="flex justify-center items-center mb-10">
@@ -31,6 +32,11 @@ const About = () => {
           of online payments! Be the first to experience a secure and convenient
           payment web app designed for seamless transactions.
         </h3>
+        <a href={googleFormLink} target="_blank" rel="noopener noreferrer">
+          <button className='btn px-4 py-2 rounded-xl hover:bg-amber-500 mt-2'>
+            Join our waitlist
+          </button>
+        </a>
       </div>
       </div>
 
